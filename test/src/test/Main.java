@@ -6,7 +6,7 @@ public class Main {
 		// TODO Auto-generated method stub
       System.out.println("Perfect");
       String value = System.getenv("Name");
-      System.out.println(value);
+      System.out.println("variable= "+value);
 	}
 
 }
