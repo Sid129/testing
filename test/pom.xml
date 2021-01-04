@@ -21,7 +21,11 @@
             <configuration>
                 <mainClass>test.Main</mainClass>
             </configuration>
-        </plugin>
+     </plugin>
     </plugins>
   </build>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>      
+    <jenkins.buildNumber>${env.NAME}</jenkins.buildNumber>      
+</properties>
 </project>
