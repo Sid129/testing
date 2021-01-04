@@ -11,7 +11,7 @@ public class Main {
 		// TODO Auto-generated method stub
       System.out.println("Perfect");
       System.out.println("yes");
-      String value = System.getenv("NAME");
+      String value = System.getenv("JAVA_HOME");
       System.out.println("yess");
       System.out.println("variable= "+value);
       FileInputStream config= new FileInputStream("./config.properties");
